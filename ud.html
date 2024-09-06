@@ -43,13 +43,32 @@
         
         </div>
         
-        <div class="header-share-div">
+ <div class="header-share-div">
         
-            <button class="share-button">
+            <button id="sharebtn" class="share-button">
                 <i class="fa-solid fa-arrow-up-from-bracket"></i>
             </button>
         
         </div>
+
+        <script>
+            const sharebtn = document.querySelector("#sharebtn");
+            sharebtn.addEventListener("click", (event)=>{
+                if(navigator.share){
+                    navigator.share({
+                        title:"Ud Jaega",
+                        url:"https://kabirbook.github.io/read/ud.html",
+                    }).then(()=>{
+                        console.log("thanks for sharing");
+                    }).catch((err)=>{
+                        console.log("error using web share API :");
+                        console.log(err);
+                    })
+                }else{
+                    alert("browser does not support this web share API")
+                }
+            })
+        </script>
         
         <div class="hr2">
             <hr>

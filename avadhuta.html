@@ -42,15 +42,33 @@
             </p>
         
         </div>
-        
         <div class="header-share-div">
         
-            <button class="share-button">
+            <button id="sharebtn-avadhuta" class="share-button">
                 <i class="fa-solid fa-arrow-up-from-bracket"></i>
             </button>
         
         </div>
-        
+
+        <script>
+            const sharebtn-avadhuta = document.querySelector("#sharebtn-avadhuta");
+            sharebtn-avadhuta.addEventListener("click", (event)=>{
+                if(navigator.share){
+                    navigator.share({
+                        title:"Kabir",
+                        url:"https://kabirbook.github.io/read/context.html",
+                    }).then(()=>{
+                        console.log("thanks for sharing");
+                    }).catch((err)=>{
+                        console.log("error using web share API :");
+                        console.log(err);
+                    })
+                }else{
+                    alert("browser does not support this web share API")
+                }
+            })
+        </script>
+
         <div class="hr2">
             <hr>
         </div>

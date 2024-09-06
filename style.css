@@ -1,0 +1,609 @@
+.index-body{
+    padding-bottom: 50px;
+}
+
+
+h1{
+    text-align: left;
+    margin-left: 25px;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: fontp;
+    vertical-align: middle;
+}
+
+.chapter-name-i{
+    margin-left: 10px;
+}
+
+.index-header-main-div{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 10;
+    width: 96%;
+    padding-top: 10px;
+}
+
+.index-header-left-div{
+    display: inline-block;
+}
+
+.menu-button-index{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 10.45px;
+    padding-top: 10.45px;
+    font-size: 15px;
+    border-color: rgb(209, 213, 219);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+
+.italic{
+    font-style: italic;
+    font-size: 25px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+
+button{
+    border: solid;
+    cursor: pointer;
+    border-color: rgb(191, 188, 188);
+}
+
+.background{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.buttondiv{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.book {
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    border-width: 1px;
+    margin-bottom: 17px;
+    
+    color: black;
+    font-family: fontp2, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+
+.button-icon{
+    height: 18px;
+    width: 18px;
+    vertical-align: bottom;
+    margin-right: 7px;
+    margin-top: 0px;
+}
+
+.pdf{
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    border-width: 1px;
+    margin-bottom: 17px;
+    
+    color: black;
+    font-family: fontp2, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    margin-left: 5px;
+
+}
+
+
+.button-icon-amazon{
+    height: 16px;
+    width: 16px;
+    vertical-align: bottom;
+    margin-right: 7px;
+    margin-top: 0px;
+}
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-icon-pdf{
+    height: 14px;
+    width: 17px;
+    vertical-align: bottom;
+    margin-right: 6px;
+    margin-top: 0px;
+    
+   
+}
+
+
+h3{
+    font-weight: bold;
+    margin-left: 28px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.chapters{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: fontp, serif;
+}
+
+.content-top-button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    background-color: white;
+    font-family: fontp2, 'inner', arial, Helvetica, sans-serif;
+    border-width: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+
+.content-middle-button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: none;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: white;
+    border-width: 1px;
+    font-family: 'inner', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.story1{
+    font-style: italic;
+}
+
+.content-bottom-button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: none;
+    margin-left: 15px;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: white;
+    border-width: 1px;
+    font-family: 'inner', Arial, Helvetica, sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+.contentdiv{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-button-div{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+p{
+    font-family: fontp2, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 27.2px;
+    margin-bottom: 35px;
+}
+
+@font-face {
+    font-family: fontp;
+    src: url(ABCFavorit-Bold.otf);
+}
+
+.chapter-name{
+    text-align: left;
+    margin-top: 100px;
+    font-family: fontp;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 8px;
+    margin-left: 3px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+
+@font-face {
+    font-family: fontp2;
+    src: url(InterVariable.ttf);
+}
+
+.topic{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: fontp, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.topic-notes{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: fontp, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 40px;
+
+}
+
+.hr{
+    margin-top: 60px;
+    width: 96%;
+}
+
+.footer-main-div{
+    display: grid;
+    grid-template-columns: 1fr 110px;
+}
+
+.footer-left-div{
+    display: inline-block;
+}
+
+.footer-right-div{
+    display: inline-block;
+}
+
+.next-section{
+   font-family: fontp2, sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: left;
+   margin-bottom: 0px;
+   line-height: 0;
+   margin-top: 25px;
+}
+
+.next-section-text{
+    font-family: fontp2, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: left;
+   margin-top: 0px;
+   color: #545454;
+   line-height: 3;
+   margin-bottom: 8px;
+}
+
+.next-button{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 30px;
+    border: none;
+    font-family: fontp2, sans-serif;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.header-content-div-top{
+    font-family: fontp2, sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 0px;
+   line-height: 0;
+   margin-top: 12px;
+   vertical-align: middle;
+}
+
+.header-content-div-bottom{
+    font-family: fontp2, sans-serif;
+   font-size: 12.5px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 0px;
+   color: #545454;
+   line-height: 3;
+   margin-bottom: 0px;
+   
+}
+
+.header-main-div{
+    display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 10;
+    width: 96%;
+    padding-top: 10px;
+}
+
+.menu-button{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 9.45px;
+    padding-top: 9.45px;
+    font-size: 15px;
+    border-color: rgb(209, 213, 219);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+
+.share-button{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 9.45px;
+    padding-top: 9.45px;
+    font-size: 15px;
+    border-color: rgb(209, 213, 219);
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 6px;
+}
+
+.hr2{
+    display: block;
+}
+
+.audio-page-body{
+    background-color: black;
+}
+
+.audio-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.audio-poem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.sound-credit{
+    margin-top: 0px;
+    font-size: 13px;
+    margin-left: 50%;
+    margin-bottom: 40px;
+
+}
+
+
+.audio-para{
+    color: white;
+    font-family: fontp2, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 27.2px;
+    margin-top: 50px;
+   
+}
+
+.audio-button{
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-bottom: 17px;
+    margin-right: 15px;
+    padding-left: 17px;
+    padding-right: 17px;
+    
+}
+
+.audio-para2{
+    color: white;
+    font-family: fontp2, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 27.2px;
+    margin-top: 10px;
+ 
+}
+
+.download-div{
+    text-align: center;
+}
+
+.download-pdf-button{
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    border-width: 1px;
+    margin-bottom: 17px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 150px;
+}
+
+.download-pdf-button:active{
+    background-color: white;
+    color: black;
+}
+
+
+.aouther-name{
+    text-align: right;
+    margin-top: 40px;
+}
+
+.date{
+    margin-top: 0px;
+}
+
+.bombay{
+margin-bottom: 0px;
+}
+
+.notes-c1-1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 10px;
+}
+
+.reffer-to-appendix{
+    text-decoration: none;
+    color: rgb(30, 131, 210);
+    margin-right: 2px;
+}
+
+.arrow-icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+blockquote{
+    margin-bottom: 30px;
+}
+
+
+/* responsive */
+
+@media (min-width: 768px) {
+    body{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .index-header-main-div{
+        display: grid;
+    grid-template-columns: 1fr 50px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 10px;
+    
+    }
+
+    .header-main-div{
+        display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 10px;
+
+    }
+}
+
+@media (min-width: 992px) {
+    body{
+        margin-right: 400px;
+        margin-left: 400px;
+    }
+
+    .index-header-main-div{
+        display: grid;
+    grid-template-columns: 1fr 50px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 10px;
+    
+    }
+
+    .header-main-div{
+        display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 99%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+}
